@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'searce-playground'
+        PROJECT_ID = '<project id>'
         CLUSTER_NAME = 'abhishek-jenkins'
         LOCATION = 'asia-south1-a'
-        CREDENTIALS_ID = 'searce-playground'
+        CREDENTIALS_ID = 'project credentials'
     }
     stages {
         stage("Checkout code") {
